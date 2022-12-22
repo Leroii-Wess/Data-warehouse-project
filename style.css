@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.8;
+  color: #4b5d68;
+}
+
+.container {
+  width: 75%;
+  margin-left: 20%;
+}
+
+.logos {
+  display: flex;
+  gap: 1rem;
+}
+
+.logo-one {
+  width: 2rem;
+  height: 2rem;
+  color: #9c69e2;
+  border-radius: 50%;
+}
+
+.logo-two {
+  width: 2rem;
+  height: 3.5rem;
+  color: #f063b8;
+  border-radius: 50%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 6.5rem;
+  align-items: center;
+}
+
+.main-nav-list {
+  display: flex;
+  list-style: none;
+  gap: 4rem;
+  margin-left: 10rem;
+  font-size: 1.2rem;
+}
+
+.main-nav-link {
+  text-decoration: none;
+  color: #212353;
+  font-size: 600;
+}
+
+.btn {
+  margin-left: auto;
+  background: none;
+  background-color: #fff;
+  color: #212353;
+  border: none;
+  padding: 1.7rem 2.9rem;
+  font-family: inherit;
+  border-radius: 50px;
+  box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+}
+
+.btn span {
+  color: #9c69e2;
+}
+
+.hero {
+  padding-top: 8rem;
+  padding-bottom: 9.6rem;
+  position: relative;
+}
+
+.header-container {
+  width: 50rem;
+}
+
+.heading-primary {
+  color: #212353;
+  font-family: helvetica;
+  font-weight: 700;
+  font-size: 6rem;
+  line-height: 1;
+  letter-spacing: 1.1px;
+  margin-bottom: 3.6rem;
+}
+
+.description-container {
+  width: 30rem;
+}
+
+.hero-description {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 6rem;
+}
+
+.hero-img {
+  width: 88rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
