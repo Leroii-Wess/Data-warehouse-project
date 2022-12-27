@@ -32,7 +32,7 @@
         </ul>
       </nav>
 
-      <button class="btn">Request Demo <span>&rarr;</span></button>
+      <button class="btn">Request Demo <span class="arrow">&rarr;</span></button>
     </header>
 
     <section class="section-hero container container-body">
@@ -91,10 +91,10 @@
       </header>
 
       <div class="grid grid-2-cols">
-
-        <figure class="feature-options">
-          <img src="/img/search.png" alt="search img background"/>
-          <div>
+        
+        <figure class="feature-options search">
+          <img class="feat-img" src="/img/search.png" alt="search img background"/>
+          <div class="feat">
             <h4 class="feature-option">Search Data</h4>
             <p class="feature-text">
               Don’t worry if your data is very large, 
@@ -107,8 +107,8 @@
         </figure>
 
         <figure class="feature-options access">
-          <img src="/img/24hours.png" alt="access img background"/>
-          <div>
+          <img class="feat-img" src="/img/24hours.png" alt="access img background"/>
+          <div class="feat">
             <h4 class="feature-option">24 Hours Access</h4>
             <p class="feature-text">
               Access is given 24 hours a full morning to night and
@@ -120,8 +120,8 @@
         </figure>
 
         <figure class="feature-options print">
-          <img src="/img/print.png" alt="print img background"/>
-          <div>
+          <img class="feat-img" src="/img/print.png" alt="print img background"/>
+          <div class="feat">
             <h4 class="feature-option">Print Out</h4>
             <p class="feature-text">
               Print out service gives you convenience if someday
@@ -131,9 +131,9 @@
           </div>
         </figure>
 
-        <figure class="feature-options">
-          <img src="/img/security.png" alt="security img background"/>
-          <div>
+        <figure class="feature-options security">
+          <img class="feat-img" src="/img/security.png" alt="security img background"/>
+          <div class="feat">
             <h4 class="feature-option">Security Code</h4>
             <p class="feature-text">
               Data Security is one of our best facilities. Allows for your files
@@ -146,5 +146,114 @@
 
       </div>
     </section>
+
+    <section class="section-testimonials container">
+      <h3 class="heading-testimonial">Testimonial</h3>
+      
+      <div class="testimonial-flex-box">
+      <div class="testimonial-box first-test">
+        <img 
+        src="/img/Review-imgs/John-Fang.png" 
+        alt="John Fang" 
+        class="testimonial-img" />
+        
+        <div class="testimonial-text-box">
+          <h4 class="testimonial-author">John Fang</h4>
+          <p class="job-description">wordfaang.com</p>
+          <p class="testimonial">Suspendisse ultrices at diam lectus nullam. 
+            Nisl, sagittis viverra enim erat tortor ultricies massa turpis. 
+            Arcu pulvinar aenean nam laoreet nulla.
+          </p>
+        </div>
+      </div>
+
+      <div class="testimonial-box testimonial-gradient">
+        <img 
+        src="/img/Review-imgs/John-Fang.png" 
+        alt="John Fang" 
+        class="testimonial-img img-margin" />
+        
+        <div class="testimonial-text-box">
+          <h4 class="testimonial-author">Jenny Doe</h4>
+          <p class="job-description">UX Engineer</p>
+          <p class="testimonial other-test">Suspendisse ultrices at diam lectus nullam. 
+            Nisl, sagittis viverra enim erat tortor.
+          </p>
+        </div>
+      </div>
+
+      <div class="testimonial-box testimonial-gradient">
+        <img 
+        src="/img/Review-imgs/John-Fang.png" 
+        alt="John Fang" 
+        class="testimonial-img img-margin" />
+        
+        <div class="testimonial-text-box">
+          <h4 class="testimonial-author">William Doe</h4>
+          <p class="job-description">Web Developer</p>
+          <p class="testimonial other-test">Suspendisse ultrices at diam lectus nullam. 
+            Nisl, sagittis viverra enim erat tortor.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="testimonial-nav">
+      <div class="dots">
+        <div class="dot dot-fill">&nbsp;</div>
+        <div class="dot">&nbsp;</div>
+        <div class="dot">&nbsp;</div>
+        <div class="dot">&nbsp;</div>
+      </div>
+
+      <div class="arrows">
+        <div class="arrow-left">&larr;</div>
+        <div class="arrow-right">&rarr;</div>
+      </div>
+    </div>    
+    </section>
+
+    <section class="section-footer">
+      <div class="footer-header container">
+        <div>
+          <h3 class="heading-features">Try for free!</h3>
+          <p class="features-text">
+            Get limited 1 week free try of for our features.
+          </p>
+        </div>
+        <div>
+          <button class="btn btn-purple footer-learn-more">Learn more</button>
+          <button class="btn">Request Demo <span class="arrow">&rarr;</span></button>
+        </div>
+      </div>
+
+      <div class="footer-nav container grid-footer grid-4-cols">
+          <div class="logo-col">
+            <div class="logo-div">
+              <div class="logos">
+                <div class="logo-one">&nbsp;</div>
+                <div class="logo-two">&nbsp;</div>
+                <p class="logo-header">DataWarehouse</p>
+            </div>
+
+            <br class="contact">
+              <p class="address">Warehouse Society, 234
+                Bahagia Ave Street 
+                PRBW 29281</p>
+
+                <a class="email" href="mailto:info@warehouse.project">info@warehouse.project</a><br/>
+                <a class="phone-number" href="tel:1-232-3434">1-232-3434 (Main)</a>
+              </address>
+
+              <p class="copyright">&copy; Datawarehouse™, 2020. All rights reserved.<br/>
+                Company Registration Number: 21479524.</p>
+          </div>
+        </div>
+        <div class="footer-about">About</div>
+        <div class="footer-help">Help</div>
+        <div class="footer-social-media">Social Media</div>
+      </div>
+    </section>
+    
   </body>
 </html>
